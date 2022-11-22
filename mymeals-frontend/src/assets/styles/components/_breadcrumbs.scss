@@ -1,0 +1,25 @@
+@import "../variables";
+
+.breadcrumbs {
+	height: 4.375rem;
+	width: 100%;
+	padding: 0 2.5rem;
+	display: flex;
+	align-items: center;
+	-webkit-box-shadow: 0.125rem 0 0.25rem 0 rgba(0, 0, 0, 0.25);
+	-moz-box-shadow: 0.125rem 0 0.25rem 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0.125rem 0 0.25rem 0 rgba(0, 0, 0, 0.25);
+
+	&__text {
+		color: $purple;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 1rem;
+		text-transform: uppercase;
+	}
+
+	&__separator {
+		color: $grey;
+		margin: 0 0.25rem;
+	}
+}

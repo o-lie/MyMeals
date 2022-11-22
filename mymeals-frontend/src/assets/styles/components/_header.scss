@@ -1,0 +1,32 @@
+@import "../variables";
+
+.header {
+	width: 100%;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+
+	&__top {
+		padding-top: 1.8rem;
+		//display: flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	&__buttons {
+		//display: flex;
+	height: 100%;
+	}
+
+	&__button {
+		padding: 0.5rem 1rem;
+		text-align: center;
+		border-radius: 0.75rem;
+		color: $white;
+		margin: 0;
+		border: none;
+
+		&--purple {
+			background-color: $purple;
+		}
+	}
+}

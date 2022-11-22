@@ -1,0 +1,37 @@
+@import "../variables";
+
+.sidebar {
+	&__wrapper {
+		width: 15.625rem;
+		height: 100%;
+		background-color: $white;
+		display: flex;
+		flex-direction: column;
+		-webkit-box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.25);
+		-moz-box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.25);
+		box-shadow: 0 0 0.25rem 0 rgba(0, 0, 0, 0.25);
+	}
+
+	&__top {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 1.125rem 0;
+	}
+
+	&__logo {
+		height: 2rem;
+	}
+
+	&__navigation {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+
+	&__link {
+		font-weight: 600;
+	}
+}
